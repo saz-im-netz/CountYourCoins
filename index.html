@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    ändere:
+    Thema
+    Hintergrundbild
+    Font
+    Button Appearance
+-->
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="head">
+            <h1>Coins in Piggy Bank</h1>
+            <h2 id="count-el">0</h2>
+        </div>
+
+        <button id="increment-btn" onclick="increment()" type="button">Increment</button>
+        <button id="save-btn" onclick="save()" type="button">Save</button>
+
+        <div id="head">
+            <p id="saving">No Previous Counts</p>
+        </div>
+
+        <button id="delete-btn" onclick="deleteCounts()" type="button">Delete Counts</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
